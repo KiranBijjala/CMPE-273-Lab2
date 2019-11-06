@@ -1,0 +1,22 @@
+.main-new {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 1px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px;
+    border: 2px solid rgb(231, 230, 230);
+  }
+
+  .col-new{
+    flex:0 0 25%;
+    max-width:25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: inherit;
+}
+
+  .col-new-2{
+    flex:0 0 75%;
+    max-width:75%;
+
+  }

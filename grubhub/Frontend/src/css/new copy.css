@@ -1,0 +1,94 @@
+.nav-link .new{
+    color:#0070eb;
+    font-size: 15.4px;
+    font-family: Arial;
+    font-weight: 400;
+}
+.profilenew{
+    color:black;
+    
+}
+.nav flex-column{
+    margin-left: 20px;
+}
+.col-shift{
+    margin-left: 20px;
+}
+.column-change{
+    background-color:#fafafa;
+}
+
+.editname{
+    font-size:23.3px;
+    font-weight: bold;
+    font-family: Impact;
+    color:black;
+    line-height: 1.37337;
+    margin-top:0;
+    margin-bottom: 4px;
+
+}
+
+.button-edit{
+    background: #0070eb none repeat scroll 0 0;
+    border-color: #0070eb;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #ffff;
+    font-size: 18px;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+    margin-right: 8px;
+    box-sizing: inherit;
+}
+
+.cancel-button-edit{
+    background: #ffff none repeat scroll 0 0;
+    border-color: rgba(67,41,163,.2);
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #0070eb;
+    font-size: 18px;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 4px;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: inherit; 
+}
+/* .wrapperbutton{
+  display: inline-block; */
+
+.boxwidth-change{
+    width:40%;
+}
+
+.kv-avatar .krajee-default.file-preview-frame,.kv-avatar .krajee-default.file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+.kv-avatar {
+    display: inline-block;
+}
+.kv-avatar .file-input {
+    display: table-cell;
+    width: 213px;
+}
+.kv-reqd {
+    color: red;
+    font-family: monospace;
+    font-weight: normal;
+}
