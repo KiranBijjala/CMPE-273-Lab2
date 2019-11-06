@@ -21,8 +21,8 @@ export const DELETE_SECTION = "delete_section";
 export const UPDATE_RESTAURANT_MENU = "delete_section";
 export const GET_MENU_DETAILS = "get_menu_details";
 
-const ROOT_URL = "http://localhost:3001";
-
+// const ROOT_URL = "http://localhost:3001";
+const ROOT_URL = "http://3.133.145.87:3001";
 // axios.defaults.headers.common['Authorization'] = sessionStorage.getItem("JWT") ? sessionStorage.getItem("JWT") : ""; 
 
 
@@ -445,109 +445,7 @@ export function menudetails(values, callback) {
         })
     }
     
-}// import axios from "axios";
-
-// export const SUBMIT_LOGIN = "submit_login";
-
-// const ROOT_URL = "http://localhost:3001";
-
-// export function submitlogin(data) {
-//     return function (dispatch) {
-//         console.log('Inside Action:', data);
-//         // axios.defaults.withCredentials = true;
-//         axios.post(ROOT_URL + '/login', data)
-//             .then(response => {
-//                 console.log(response);
-//                 if (response.status === 200) {
-//                     //   localStorage.setItem("token", response.data.Token);
-//                     console.log("useremail", data.Email)
-//                     localStorage.setItem('email', data.Email);
-//                     console.log(localStorage.getItem('email'))
-//                     var resultData = {
-//                         UserName: response.data.UserName,
-//                         // Accounttype : response.data.Accounttype,
-//                         isAuthenticated: true
-//                     }
-//                     console.log('Result in action: ', resultData)
-//                     dispatch({
-//                         type: SUBMIT_LOGIN,
-//                         payload: resultData
-//                     });
-
-//                 }
-//                 // else{
-//                 //         // if (err.response.status === 401) {
-//                 //          let resultData = {
-//                 //              isAuthenticated : false
-//                 //          }
-//                 //             // console.log(err);
-//                 //             // console.log('inside res status', err);
-//                 //              dispatch({
-//                 //                  type: AUTH_LOGIN,
-//                 //                  payload: resultData
-//                 //              });                        
-//                 //          //}
-//                 // }                            
-//             })
-//             .catch((err) => {
-//                 // if (err.response.status === 401) {
-//                 var resultData = {
-//                     isAuthenticated: false
-//                 }
-//                 console.log(err);
-//                 console.log('inside res status', err);
-//                 dispatch({
-//                     type: SUBMIT_LOGIN,
-//                     payload: resultData
-//                 });
-//                 //}
-//             });
-//     }
-// }
-// export function submitlogin(values,callback) {
-//     console.log(values);
-//     axios.defaults.withCredentials = true;
-
-//     const request = axios
-//         .post(`${ROOT_URL}/login`, values);
-
-//     return (dispatch) =>
-//     {
-//      request.then( (res) => {
-//              console.log("In login response is : " + JSON.stringify(res));
-//              dispatch(
-//                  {
-//                      type: SUBMIT_LOGIN,
-//                      payload: res.data
-//                  });
-//              callback(res);
-//          }
-//      );
-
-//     };
-// }
-
-// export function submitsignup(values,callback) {
-//     console.log(values);
-//     axios.defaults.withCredentials = true;
-//     const request = axios
-//         .post(`${ROOT_URL}/signup`, values);
-
-//     return (dispatch) =>
-//     {
-//         request.then( (res) => {
-//                 console.log("signup response is : " + JSON.stringify(res));
-//                 dispatch(
-//                     {
-//                         type: CREATE_USER,
-//                         payload: res.data
-//                     });
-//                 callback(res);
-//             }
-//         );
-
-//     };
-// }
+}
 
 
 

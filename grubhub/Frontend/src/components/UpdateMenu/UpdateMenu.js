@@ -48,8 +48,11 @@ class Menu extends Component {
 
     
   }
-
-
+  imageChangeHandler = e => {
+    this.setState({
+        file: e.target.files[0]
+    })
+}
   inputChangeHandler = e => {
     this.setState({
       [e.target.name]: e.target.value
@@ -108,7 +111,7 @@ class Menu extends Component {
         .then(response => {
             let data = { id: menuid }
             console.log(data);
-            axios.post(`${ROOT_URL}/menuimag`, data).then(response => {
+            axios.post(`${ROOT_URL}/menuimage`, data).then(response => {
                 console.log('Axios get:', response.data)
                 this.setState({
                     img: 'data:image/png;base64, ' + response.data

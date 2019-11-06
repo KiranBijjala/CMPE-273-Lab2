@@ -34,12 +34,12 @@ class Ownerprofile extends Component {
     }
 
     componentWillMount () {
-        let path = '/Users/kirankumarbijjala/Documents/Lab2/grubhub/Backend/ownerprofile/Sankranthi.png';
+        // let path = '/Users/kirankumarbijjala/Documents/Lab2/grubhub/Backend/ownerprofile/Sankranthi.png';
 
         this.setState({
           authFlag: false,
           authFailed: false,
-          pic: path,
+          pic: '',
           
         })
     
